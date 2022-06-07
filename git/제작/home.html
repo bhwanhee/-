@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="ko">
+
+<head>
+    <title>웹 프로그래밍 과제</title>
+    <link rel="stylesheet" href="css.css">
+    <script src="script.js"></script>
+</head>
+
+<body onload="init()">
+    <!-- 배너 -->
+    <header id="banner">
+        <div id="header">
+            <h1 id="title">빅데이터</h1>
+            <div id="time"></div>
+            <p id="sub_header">Big Data, 4차 산업혁명의 주요 기술</p>
+        </div>
+    </header>
+    
+    <!-- 메뉴 -->
+    <nav>
+        <ul id="menu">
+            <li><a class="active" href="home.html">Home</a></li>
+            <li><a href="menu_1(동기).html">주제 선정 동기</a></li>
+            <li><a href="menu_2(계획).html">공부 계획</a></li>
+            <li><a href="menu_3(설명).html">빅데이터 설명</a></li>
+            <li><a href="menu_4(활용).html">빅데이터의 활용</a></li>
+        </ul>
+    </nav>
+
+    <!-- 본문 -->
+    <div id="content">
+        <img id="background" src="src/smart_city.jpg" onmouseover="canvas_draw()">
+        <canvas id="myCanvas"></canvas>
+    </div>
+
+    <!-- 푸터 -->
+    <footer id="footer">
+        <audio src="src/bensound-acousticbreeze.mp3" controls autoplay loop></audio>
+        <p>&copy; 공주대학교 소프트웨어공학과</p>
+        <p>201801806 이환희</p>
+    </footer>
+</body>
+
+</html>

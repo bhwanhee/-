@@ -1,0 +1,105 @@
+html{
+    /* !important 무조건 적용 */
+	margin: 0 !important;
+	padding: 0 !important;
+	background-image: url(src/big_data_background.jpg);
+}
+body{
+	margin: 30px 30px 30px 30px !important;
+	padding: 0 !important;
+	background-color: aliceblue;
+}
+
+
+/* 배너 */
+#banner {
+	display: table; /* table 안에 table-cell로 일정한 간격으로 배치 가능 */
+	width: 100%;    
+	height: 150px;  
+	background-color: #79BFA1;
+	color: #ffffff;
+    margin: 0.5% 0% 0.5% 0%;
+}
+#header {
+	display: table-cell;
+	vertical-align: middle;
+	padding: 0px 0px 0px calc(5%);
+}
+#sub_header {
+	font-size: 95%;
+	padding: 0px;
+    margin: 0;
+}
+#title{
+	display: inline;	
+}
+#time{
+	position: relative;
+	text-align: right;
+	bottom: 50px;
+	right: 20px;
+}
+
+
+
+/* 메뉴 */
+#menu {
+	list-style-type: none;
+	height: 40px;
+	padding: 0% 2% 0% 4%;
+	margin: 0% 0% 0.5% 0%;
+	background-color: #87b;
+}
+#menu li{
+	float: left;
+	position: relative;
+	margin: 5px;
+	padding: 0;
+	line-height: 30px;
+	width: calc(93% / 5);
+}
+#menu li a{
+	display: block;
+	text-align: center;
+	text-decoration: none;
+	color: #ffffff;
+	padding: 0;
+	margin: 0;
+	background-color: #87b;
+}
+#menu li a:hover, ul#menu li a.active {
+	background-color: #7C71AD;
+	color: #ffffff;
+	border: none !important;
+}
+
+
+/* 본문 */
+#content{
+	padding: 0% 2% 0.5% 2%;
+	font-size: 1.3em;
+}
+#quiz td{
+	width: 5em;
+}
+.highlight{
+	color: #79BFA1;
+	text-decoration: underline;
+}
+#background{
+	background-image: url(src/smart_city.jpg);
+	width: calc(100%);
+	z-index: 0;
+}
+#myCanvas{
+	position: absolute;
+	left: calc(4%);
+	z-index: 1;
+}
+/* 푸터 */
+#footer {
+	border-top: 2px solid #79BFA1;
+	text-align: right;
+	padding: 15px;
+	font-size: 75%;	
+}
